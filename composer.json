@@ -1,0 +1,13 @@
+{
+    "name": "erdemyesiltas/yazarpatent",
+    "description": "Yazarpatent müşteri , marka ve patent yönetim sistemi",
+    "authors": [
+        {
+            "name": "erdem",
+            "email": "erdem@gulenayva.com"
+        }
+    ],
+    "require": {
+        "zendframework/zendframework": "~2.4.0"
+    }
+}
