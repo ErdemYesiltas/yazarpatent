@@ -26,13 +26,14 @@
     padding-right: 0px;
 }
 .logo-section>img{
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.85);
     width: 92%;
     padding: 5%;
 }
 
 body{
     background: url("/img/background.jpg") no-repeat center center fixed !important;
+    /*background: url("http://lorempixel.com/1920/1080/nature") no-repeat center center fixed !important;*/
 }
 
 .search-section , .sidebar-section{
@@ -40,7 +41,7 @@ body{
 }
 
 .search-section .search-button{
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.85);
 }
 .search-section .search-button:hover{
     background-color: #FFFFFF;
@@ -49,13 +50,17 @@ body{
     padding-left: 0px;
 }
 .sidebar-section .sidebar-menu li{
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.85);
     margin-top: 5px;
     padding: 10px;
     list-style-type: none;
 }
 
-.sidebar-section .sidebar-menu li .caret{
+.sidebar-section .sidebar-menu li:hover{
+    background-color: #FFFFFF;
+}
+
+.sidebar-section .sidebar-menu li .fa-caret-down{
     float: right;
     margin-right: 5%;
 }
@@ -63,14 +68,10 @@ body{
 .sidebar-section .sidebar-menu li a{
     color: #898989;
     text-decoration: none;
-    width: 100%;
 }
 
 .sidebar-section .sidebar-menu li a:hover{
     color: #483734;
-}
-.sidebar-section .sidebar-menu li:hover{
-    background-color: #FFFFFF;
 }
 
 .sidebar-section .sidebar-menu li .sub-menu{
@@ -92,6 +93,8 @@ body{
 .footer{
     position: absolute;
     bottom: 10px;
+    border-top: solid thin #C0C0C0;
+    padding:20px 5px;
 }
 
 
