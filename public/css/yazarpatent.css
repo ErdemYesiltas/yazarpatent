@@ -6,8 +6,7 @@
     -webkit-box-shadow: -15px 0px 31px -9px rgba(112,111,112,1);
     -moz-box-shadow: -15px 0px 31px -9px rgba(112,111,112,1);
     box-shadow: -15px 0px 31px -9px rgba(112,111,112,1);
-
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.85);
     min-height: 500px;
 }
 .streaming-header{
@@ -17,6 +16,7 @@
 .streaming-content{
     padding:20px 5px;
     color: #898989;
+    background-color: #FFFFFF;
 }
 
 .main-content{
@@ -95,6 +95,7 @@ body{
     bottom: 10px;
     border-top: solid thin #C0C0C0;
     padding:20px 5px;
+    width: 97%;
 }
 
 
