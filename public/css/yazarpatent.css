@@ -1,0 +1,130 @@
+.left-sidebar{
+    padding-right: 0px !important;
+    margin-right: -20px;
+}
+.streaming {
+    -webkit-box-shadow: -15px 0px 31px -9px rgba(112,111,112,1);
+    -moz-box-shadow: -15px 0px 31px -9px rgba(112,111,112,1);
+    box-shadow: -15px 0px 31px -9px rgba(112,111,112,1);
+
+    background-color: #FFFFFF;
+    min-height: 500px;
+}
+.streaming-header{
+    border-bottom: solid thin #C0C0C0;
+}
+
+.streaming-content{
+    padding:20px 5px;
+    color: #898989;
+}
+
+.main-content{
+    margin-top : 20px;
+}
+.logo-section{
+    padding-right: 0px;
+}
+.logo-section>img{
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 92%;
+    padding: 5%;
+}
+
+body{
+    background: url("/img/background.jpg") no-repeat center center fixed !important;
+}
+
+.search-section , .sidebar-section{
+    margin-top: 10px;
+}
+
+.search-section .search-button{
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.search-section .search-button:hover{
+    background-color: #FFFFFF;
+}
+.sidebar-section .sidebar-menu{
+    padding-left: 0px;
+}
+.sidebar-section .sidebar-menu li{
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-top: 5px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.sidebar-section .sidebar-menu li .caret{
+    float: right;
+    margin-right: 5%;
+}
+
+.sidebar-section .sidebar-menu li a{
+    color: #898989;
+    text-decoration: none;
+    width: 100%;
+}
+
+.sidebar-section .sidebar-menu li a:hover{
+    color: #483734;
+}
+.sidebar-section .sidebar-menu li:hover{
+    background-color: #FFFFFF;
+}
+
+.sidebar-section .sidebar-menu li .sub-menu{
+    background-color:#FFFFFF;
+    padding-left: 10px;
+}
+
+.sidebar-section .sidebar-menu li .sub-menu .divider{
+    background: #C0C0C0;
+    height: 1px;
+    padding: 0px;
+    width: 100%;
+}
+
+.sidebar-section .sidebar-menu li .sub-menu li{
+    width: 100%;
+}
+
+.footer{
+    position: absolute;
+    bottom: 10px;
+}
+
+
+/* Renkler */
+.light-red{
+    color:#db5461;
+}
+
+.light-green{
+    color:#AEF6C7;
+}
+
+.fa-dashboard-orange{
+    color:#C84630;
+}
+.fa-search-turquaz{
+    color:#25A5C4;
+}
+.fa-globe-blue{
+    color:#1F5673;
+}
+.fa-users-green{
+    color:#4A7C59;
+}
+
+.fa-cogs-grey{
+    color:#CCDBDC;
+}
+
+.fa-trademark-color-one{
+    color:#F0B67F;
+}
+
+.fa-copyright-color-one{
+    color:#D44D5C;
+}

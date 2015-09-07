@@ -1,57 +1,86 @@
-<!-- sidebar: style can be found in sidebar.less -->
-<section class="sidebar">
-    <!-- Sidebar user panel -->
-    <div class="user-panel">
-        <div class="pull-left image">
-            <img src="/images/26115.jpg" class="img-circle" alt="User Image" />
-        </div>
-        <div class="pull-left info">
-            <p>Gülen Ayva</p>
 
-            <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
-        </div>
-    </div>
-    <!-- search form -->
-    <form action="#" method="get" class="sidebar-form">
+<div class="col-md-12 logo-section">
+    <img src="/img/logo-w180.png">
+</div>
+<div class="clearfix"></div>
+<div class="col-md-12 search-section">
+    <form>
         <div class="input-group">
-            <input type="text" name="q" class="form-control" placeholder="Ara..."/>
-                                    <span class="input-group-btn">
-                                        <button type='submit' name='seach' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i></button>
-                                    </span>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Arama">
+                <span class="input-group-btn">
+                  <button class="btn btn-default search-button" type="button"><i class="fa fa-search fa-search-turquaz"></i></button>
+                </span>
+            </div>
         </div>
     </form>
-    <!-- /.search form -->
-    <!-- sidebar menu: : style can be found in sidebar.less -->
+</div>
+<div class="clearfix"></div>
+<div class="col-md-12 sidebar-section">
     <ul class="sidebar-menu">
         <li class="active">
             <a href="/backend/dashboard">
-                <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-            </a>
-        </li>
-        <li>
-            <a href="/backend/headlines">
-                <i class="fa fa-list-ul"></i> <span>Başlıklar</span>
+                <i class="fa fa-dashboard fa-dashboard-orange"></i> <span>Dashboard</span>
             </a>
         </li>
 
         <li>
-            <a href="/backend/posts">
-                <i class="fa fa-microphone"></i> <span>Gönderiler</span>
+            <a href="/backend/customers">
+                <i class="fa fa-briefcase"></i> <span>Müşteriler</span>
+            </a>
+        </li>
+        <li>
+            <a href="/backend/trademarks">
+                <i class="fa fa-trademark fa-trademark-color-one"></i> <span>Markalar</span>
             </a>
         </li>
 
         <li>
-            <a href="/backend/users">
-                <i class="fa fa-users"></i> <span>Kullanıcılar</span>
+            <a href="/backend/patents">
+                <i class="fa fa-copyright fa-copyright-color-one"></i> <span>Patentler</span>
             </a>
         </li>
 
         <li>
-            <a href="/backend/replies">
-                <i class="fa fa-comments"></i> <span>Yorumlar</span>
+            <a data-toggle="collapse" role="button" href="#user-sub-menu" aria-expanded="false" aria-controls="user-sub-menu"><i class="fa fa-users fa-users-green"></i> Kullanıcılar <span class="caret"></span></a>
+            <ul class="collapse sub-menu" id="user-sub-menu">
+                <li><a href="/backend/users">Listele</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/backend/departments">Bölümler</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/backend/permissions">Gruplar</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a data-toggle="collapse" role="button" href="#website-sub-menu" aria-expanded="false" aria-controls="website-sub-menu"><i class="fa fa-globe fa-globe-blue"></i> Website <span class="caret"></span></a>
+            <ul class="collapse sub-menu" id="website-sub-menu">
+                <li><a href="/backend/website/pages"><i class="fa fa-file-text-o"></i> Sayfalar</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/backend/website/categories"><i class="fa fa-list-ul"></i> Kategoriler</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/backend/website/blog"><i class="fa fa-rss"></i> Blog</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/backend/website/media"><i class="fa fa-picture-o"></i> Medya</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/backend/website/design"><i class="fa fa-eye"></i> Tasarım</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/backend/website/menus"><i class="fa fa-bars"></i> Menüler</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/backend/website/comments"><i class="fa fa-comments-o"></i> Yorumlar</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/backend/website/messages"><i class="fa fa-envelope-o"></i> Mesajlar</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="/backend/website/settings"><i class="fa fa-wrench"></i> Site Ayarları</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="/backend/settings">
+                <i class="fa fa-cogs"></i> <span>Ayarlar</span>
             </a>
         </li>
 
     </ul>
-</section>
-<!-- /.sidebar -->
+</div>
+<div class="clearfix"></div>

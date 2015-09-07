@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>New Sails App</title>
+    <meta charset="utf-8">
+    <title>YazarPatent</title>
 
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -31,38 +32,32 @@
 
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/ionicons.min.css">
-    <link rel="stylesheet" href="/css/morris/morris.css">
-    <link rel="stylesheet" href="/css/jvectormap/jquery-jvectormap-1.2.2.css">
-    <link rel="stylesheet" href="/css/datepicker/datepicker3.css">
-    <link rel="stylesheet" href="/css/daterangepicker/daterangepicker-bs3.css">
-    <link rel="stylesheet" href="/css/iCheck/all.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/yazarpatent.css">
 
 </head>
 
-<body class="skin-black">
+<body>
 
-
-<?php echo $this->partial('backend/partials/admin-header.phtml', array()); ?>
-
-<div class="wrapper row-offcanvas row-offcanvas-left">
-    <!-- Left side column. contains the logo and sidebar -->
-    <aside class="left-side sidebar-offcanvas">
+<div class="container main-content">
+    <div class="col-md-3 left-sidebar">
         <?php echo $this->partial('backend/partials/admin-sidebar.phtml', array()); ?>
-    </aside>
-
-    <aside class="right-side">
-
-        <?php echo $this->content; ?>
-
-        <div class="footer-main">
-            Copyright &copy Gülenayva | Witvox, 2015
+    </div>
+    <div class="col-md-9 streaming">
+        <div class="col-md-12 streaming-header">
+            <?php echo $this->partial('backend/partials/admin-header.phtml', array()); ?>
         </div>
-    </aside><!-- /.right-side -->
-
-</div><!-- ./wrapper -->
+        <div class="clearfix"></div>
+        <div class="col-md-12 streaming-content">
+            <?php echo $this->content; ?>
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-md-12 footer">
+            <?php echo $this->partial('backend/partials/admin-footer.phtml', array()); ?>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+</div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 <script src="/js/dependencies/sails.io.js"></script>
@@ -72,26 +67,8 @@
 <script src="/js/bootstrap.min.js" type="text/javascript"></script>
 <!-- jQuery UI 1.10.3 -->
 <script src="/js/jquery-ui-1.10.3.min.js" type="text/javascript"></script>
-<!-- daterangepicker -->
-<script src="/js/plugins/daterangepicker/daterangepicker.js" type="text/javascript"></script>
 
 <script src="/js/plugins/chart.js" type="text/javascript"></script>
-
-<!-- datepicker
-<script src="js/plugins/datepicker/bootstrap-datepicker.js" type="text/javascript"></script>-->
-<!-- Bootstrap WYSIHTML5
-<script src="js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>-->
-<!-- iCheck -->
-<script src="/js/plugins/iCheck/icheck.min.js" type="text/javascript"></script>
-<!-- calendar -->
-<script src="/js/plugins/fullcalendar/fullcalendar.js" type="text/javascript"></script>
-
-<!-- Director App -->
-<script src="/js/Director/app.js" type="text/javascript"></script>
-
-<!-- Director dashboard demo (This is only for demo purposes) -->
-<script src="/js/Director/dashboard.js" type="text/javascript"></script>
-<script src="/js/custom.js" type="text/javascript"></script>
 
 <!-- Gülenayva angularjs -->
 <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.2/TweenMax.min.js"></script>
